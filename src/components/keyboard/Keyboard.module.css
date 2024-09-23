@@ -1,0 +1,27 @@
+.Keyboard{
+    border: 1px solid white;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: rgb(144, 144, 144);
+}
+.keyboardRow{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.Keys{
+    background-color: rgb(0, 0, 0);
+    padding: 10px 0px;
+    width: 54px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 700;
+}
