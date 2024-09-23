@@ -93,8 +93,9 @@
     color: greenyellow;
     padding-top: 10px;
     width: 20%;
+    align-content: center;
     text-align: center;
-    font-size: 35px;
+    font-size: 75px;
     aspect-ratio: 1;
     font-weight: 700;
     text-transform: capitalize;
@@ -116,4 +117,9 @@
 .restart{
     padding: 10px 20px;
     border-radius: 10px;
+}
+@media screen and (max-width:600px) {
+    .blank{
+        font-size: 15vw;
+    }
 }
